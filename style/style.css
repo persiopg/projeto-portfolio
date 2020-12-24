@@ -16,19 +16,15 @@ nav.navbar-transparente {
 nav ul li a{
     padding: 20px;
     border-radius: 5px;    
-    color:rgb(255, 255, 255) !important
+    color:rgb(255, 255, 255) !important;
 }
 nav ul li a:hover{
     background-color: rgba(41, 66, 136, 0.596);
 }
-
-body h2 {
-    font-size: 48px;
+h2 {
+    font-size: 48px !important;
 }
 
-body h3 {    
-    font-size: 36px;
-}
 
 p {    
     margin: 50px !important;
