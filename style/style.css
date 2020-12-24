@@ -1,0 +1,155 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to bottom right,rgb(8, 0, 77),rgb(0, 0, 0),rgb(52, 0, 73)) !important;
+    color: white !important;
+}
+/*--nav bar--*/
+nav.navbar-transparente {
+    background: rgba(0, 0, 0, 0.774);
+    border: none;
+    padding: 10px;
+    padding-left: auto;
+    padding-right: auto;
+    font-size: 15px;
+}
+
+nav ul li a{
+    padding: 20px;
+    border-radius: 5px;    
+    color:rgb(255, 255, 255) !important
+}
+nav ul li a:hover{
+    background-color: rgba(41, 66, 136, 0.596);
+}
+
+body h2 {
+    font-size: 48px;
+}
+
+body h3 {    
+    font-size: 36px;
+}
+
+p {    
+    margin: 50px !important;
+    font-size: 24px;
+}
+
+#cab {
+    background: url(../img/montanha.jpg) no-repeat fixed center;
+    background-color: black;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.glyphicon:hover{
+    color: tomato;
+}
+.glyphicon{
+    color:rgba(153, 194, 255, 0.637);
+}
+.seta {
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 72px;
+}
+
+.rodaPe {
+    background: rgba(0, 0, 0, 0.39);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 175px;
+
+}
+.espaco{
+    margin: 150px;
+}
+/*--skill bar--*/
+.skillBar li {
+    position: relative;
+    list-style: none;
+    margin: 50px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.skillBar li:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: rgba(170, 87, 87, 0.5);
+    border-radius: 1000px;
+}
+
+li:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: rgb(54, 223, 153);
+    border-radius: 1000px;
+    animation-duration: 7.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+li.html:after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 90%;
+    }
+}
+
+li.css:after {
+    animation-name: css;
+}
+
+@keyframes css {
+    to {
+        width: 80%;
+    }
+}
+
+li.js:after {
+    animation-name: js;
+}
+
+@keyframes js {
+    to {
+        width: 75%;
+    }
+}
+
+li.bt:after {
+    animation-name: bt;
+}
+
+@keyframes bt {
+    to {
+        width: 70%;
+    }
+}
+
+li.cSharp:after {
+    animation-name: cSharp;
+}
+
+@keyframes cSharp {
+    to {
+        width: 50%;
+    }
+}
